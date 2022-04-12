@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
 
  * print_alphabet - Entry point
@@ -10,24 +8,22 @@
 
  */
 
-
-
 void print_alphabet(void)
 
 {
 
-	char c = 'a';
+char c = 'a';
 
 
 
-	while (c <= 'z')
+while (c <= 'z')
 
 {
 
-		_putchar(c);
+_putchar(c);
 
-		c++;
+c++;
 }
 
-	_putchar('\n');
+_putchar('\n');
 }
