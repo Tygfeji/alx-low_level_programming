@@ -1,21 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _strlen - This function returns the length of a string
- * @s: pointer with the address value
+ * _strlen - calculate the length of a string.
  *
- * Return: void
+ * @s: the string to calculate it's length.
+ * Return: length of a string.
  */
+
 int _strlen(char *s)
 {
-	int i = 0;
+	int i;
+	int length = 0;
 
-	while (*s != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		i++;
-		s++;
+		length++;
 	}
-
-	return (i);
+	return (length);
 }
